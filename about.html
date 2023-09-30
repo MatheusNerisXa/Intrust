@@ -2,45 +2,53 @@
 <html>
 
 <head>
-  <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
   <link rel="icon" href="images/fevicon.png" type="image/gif" />
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Hostit</title>
+  <title>Intrust - Sobre nós</title>
 
-
-  <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-  <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
-  <!-- font awesome style -->
   <link href="css/font-awesome.min.css" rel="stylesheet" />
 
-  <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
+  <style>
+    .fade-in {
+      animation: fadeInAnimation 2s ease-in-out forwards;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    @keyframes fadeInAnimation {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
 </head>
 
 <body class="sub_page">
 
   <div class="hero_area">
-    <!-- header section strats -->
     <header class="header_section">
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
+        <nav class="navbar navbar-expand-lg custom_nav-container" style="padding: 0px;">
           <a class="navbar-brand" href="index.html">
-            <span>Hostit</span>
+            <img src="images/logo-3.png" alt="" class="img-logo">
           </a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,195 +56,123 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  ml-auto">
-              <li class="nav-item ">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
+            <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="about.html"> About</a>
+                <a class="nav-link" href="about.html">Sobre nós<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="service.html">Services</a>
+                <a class="nav-link" href="about.html">Pessoa jurídica</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="price.html">Pricing</a>
+                <a class="nav-link" href="service.html">Pessoa física</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
+                <a class="nav-link" href="contact.html">Contato</a>
               </li>
             </ul>
-            <div class="quote_btn-container">
-              <form class="form-inline">
-                <button class="btn   nav_search-btn" type="submit">
-                  <i class="fa fa-search" aria-hidden="true"></i>
-                </button>
-              </form>
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>
-                  Call : +01 123455678990
-                </span>
-              </a>
-            </div>
           </div>
         </nav>
       </div>
     </header>
-    <!-- end header section -->
   </div>
 
-  <!-- about section -->
-
-  <section class="about_section layout_padding">
-    <div class="container  ">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                About Us
-              </h2>
-            </div>
-            <p>
-              Words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks </p>
-            <a href="">
-              Read More
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6 ">
-          <div class="img-box">
-            <img src="images/about-img.png" alt="">
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- end about section -->
-
-  <!-- info section -->
-
-  <section class="info_section layout_padding2">
+  <section class="about_section layout_padding fade-in">
     <div class="container">
       <div class="row">
-        <div class="col-md-3">
-          <div class="info_contact">
-            <h4>
-              Address
-            </h4>
-            <div class="contact_link_box">
-              <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span>
-                  Location
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>
-                  Call +01 1234567890
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span>
-                  demo@gmail.com
-                </span>
-              </a>
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2 style="color: #0d2a4c;">
+                Andrea Trantivain
+              </h2>
             </div>
-          </div>
-          <div class="info_social">
-            <a href="">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="info_link_box">
-            <h4>
-              Links
-            </h4>
-            <div class="info_links">
-              <a class="" href="index.html">
-                <img src="images/nav-bullet.png" alt="">
-                Home
-              </a>
-              <a class="active" href="about.html">
-                <img src="images/nav-bullet.png" alt="">
-                About
-              </a>
-              <a class="" href="service.html">
-                <img src="images/nav-bullet.png" alt="">
-                Services
-              </a>
-              <a class="" href="price.html">
-                <img src="images/nav-bullet.png" alt="">
-                Pricing
-              </a>
-              <a class="" href="contact.html">
-                <img src="images/nav-bullet.png" alt="">
-                Contact Us
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="info_detail">
-            <h4>
-              Info
-            </h4>
-            <p>
-              necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful
+            <p style="text-align: justify; font-size: 15px;">
+              &emsp;Ao longo de 12 anos de experiência no setor de seguros, com foco especial no atendimento a departamentos de Recursos Humanos (RH), estou orgulhoso de apresentar a Corretora 'Intrust'. Agradeço a jornada que me trouxe até aqui e a todos que contribuíram para o meu crescimento profissional.<br><br>
+              &emsp;A minha paixão por esta nobre profissão nasceu quando fui introduzido ao mundo dos benefícios odontológicos há mais de uma década. Agradeço aos meus mentores da extinta Corretora Almeida Budoya, que me proporcionaram valiosos ensinamentos.<br><br>
+              &emsp;A decisão de seguir a carreira solo foi inspirada pelo compromisso com a excelência, um valor que prezo profundamente. Agradeço a todos os clientes que confiaram em meu trabalho ao longo desta jornada e que também tornaram possível a realização deste momento.<br><br>
+              &emsp;Nossa Corretora 'Intrust' é o resultado desse compromisso com a qualidade e profissionalismo. Estamos empenhados em fornecer soluções de seguros excepcionais para atender às necessidades de nossos clientes, garantindo a sua tranquilidade e segurança financeira. O nosso foco é proteger o que é mais importante para você.
             </p>
           </div>
         </div>
-        <div class="col-md-3 mb-0">
-          <h4>
-            Subscribe
-          </h4>
-          <form action="#">
-            <input type="text" placeholder="Enter email" />
-            <button type="submit">
-              Subscribe
-            </button>
-          </form>
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+          <div class="img-box">
+            <img src="images/andrea.jpeg" alt="" style="max-width: 100%;">
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- end info section -->
+    <section class="info_section layout_padding2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <a class="" href="index.html">
+              <img src="images/logo-3.png" alt="" style="width: 150px;">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <div class="info_link_box">
+              <h4>
+                Site
+              </h4>
+              <div class="info_links">
+                <a class="active" href="index.html">
+                  <img src="images/nav-bullet.png" alt="">
+                  Sobre Nós
+                </a>
+                <a class="" href="about.html">
+                  <img src="images/nav-bullet.png" alt="">
+                  Pessoa Jurídica
+                </a>
+                <a class="" href="service.html">
+                  <img src="images/nav-bullet.png" alt="">
+                  Pessoa Física
+                </a>
+                <a class="" href="price.html">
+                  <img src="images/nav-bullet.png" alt="">
+                  Contato
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="info_detail">
+              <h4>
+                Social
+              </h4>
+              <div class="info_social">
+                <a href="https://www.instagram.com/andreatrantivain/">
+                    <i class="fa fa-instagram" aria-hidden="true" style="font-weight: 200; text-align: center;"> </i>
+                </a>
+                <span style="font-weight: normal; padding: auto 0px;">andreatrantivain</span>
+              </div>
+            </div>
+          </div>       
+          <div class="col-md-3">
+            <div class="info_detail">
+              <h4>
+                Contato
+              </h4>
+              <p></p>
+            </div>
+          </div>        
+        </div>
+      </div>
+    </section>
 
-
-  <!-- footer section -->
   <footer class="footer_section">
     <div class="container">
       <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
+        &copy; <span id="displayYear"></span> Todos os direitos reservados por
+        <a href="index.html">Intrust</a>
       </p>
     </div>
   </footer>
-  <!-- footer section -->
 
-  <!-- jQery -->
   <script src="js/jquery-3.4.1.min.js"></script>
-  <!-- bootstrap js -->
   <script src="js/bootstrap.js"></script>
-  <!-- custom js -->
   <script src="js/custom.js"></script>
-
 
 </body>
 
